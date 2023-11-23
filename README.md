@@ -2,8 +2,8 @@ COMO EXECUTAR O PROJETO BAIXADO
 Instalar todas as dependencias indicada pelo package.json
 ### npm install
 
-Criar a base de dados "celke" no banco de dados MySQL, necessário ter o MySQL instalado na máquina e rodando.
-### CREATE DATABASE celke CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+Criar a base de dados " " no banco de dados MySQL, necessário ter o MySQL instalado na máquina e rodando.
+### CREATE DATABASE   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 Alterar no projeto as credenciais do banco de dados no arquivo ".env" 
 
