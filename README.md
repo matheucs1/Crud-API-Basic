@@ -2,8 +2,8 @@ COMO EXECUTAR O PROJETO BAIXADO
 Instalar todas as dependencias indicada pelo package.json
 ### npm install
 
-Criar a base de dados " " no banco de dados MySQL, necessário ter o MySQL instalado na máquina e rodando.
-### CREATE DATABASE   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+Criar a base de dados " nome " no banco de dados MySQL, necessário ter o MySQL instalado na máquina e rodando.
+### CREATE DATABASE  "nome sem aspas" CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 Alterar no projeto as credenciais do banco de dados no arquivo ".env" 
 
@@ -19,7 +19,7 @@ Criar o arquivo package
 ### npm init
 
 Criar a base de dados
-### CREATE DATABASE celke CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+### CREATE DATABASE " nome " CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 Sequelize é uma biblioteca Javascript que facilita o gerenciamento do banco de dados SQL
 ### npm install --save sequelize
